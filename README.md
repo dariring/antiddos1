@@ -2,7 +2,7 @@
 
 ### Quick Installation
 ```
-sudo apt update && sudo apt purge ufw firewalld -y && sudo apt install nftables git -y && git clone https://github.com/yuk1c/antiddos && cd antiddos && sudo ./antiddos-yuki && cd ..
+sudo apt update && sudo apt purge ufw firewalld -y && sudo apt install nftables git -y && git clone https://github.com/dariring/antiddos1 && cd antiddos1 && sudo ./antiddos-yuki && cd ..
 ``` 
 
 This command removes UFW/firewalld completely as the script isn't compatible with them. Make sure you don't rely on them before running it.
